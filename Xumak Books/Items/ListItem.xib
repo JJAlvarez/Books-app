@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ListItem" customModule="Xumak_Books" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Placeholder" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lUx-XT-3ni">
+                    <rect key="frame" x="20" y="15" width="120" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="7Nh-ti-BJ6"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AQF-Fn-tQL">
+                    <rect key="frame" x="160" y="44.5" width="194" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="7CC-tH-nNy"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Harry Potter" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pMl-Ng-1nQ">
+                    <rect key="frame" x="160" y="15" width="214" height="19.5"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="lUx-XT-3ni" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="25t-51-7ZI"/>
+                <constraint firstItem="pMl-Ng-1nQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="73f-9s-9C7"/>
+                <constraint firstItem="pMl-Ng-1nQ" firstAttribute="leading" secondItem="lUx-XT-3ni" secondAttribute="trailing" constant="20" id="B2r-d3-bBd"/>
+                <constraint firstAttribute="trailing" secondItem="pMl-Ng-1nQ" secondAttribute="trailing" constant="40" id="BKp-SO-8JR"/>
+                <constraint firstItem="lUx-XT-3ni" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="GZN-M1-0Le"/>
+                <constraint firstAttribute="bottom" secondItem="lUx-XT-3ni" secondAttribute="bottom" constant="15" id="VeR-dV-jLX"/>
+                <constraint firstAttribute="trailing" secondItem="AQF-Fn-tQL" secondAttribute="trailing" constant="60" id="YDb-RN-YnK"/>
+                <constraint firstItem="AQF-Fn-tQL" firstAttribute="top" secondItem="pMl-Ng-1nQ" secondAttribute="bottom" constant="10" id="t7p-yF-LqO"/>
+                <constraint firstItem="AQF-Fn-tQL" firstAttribute="leading" secondItem="lUx-XT-3ni" secondAttribute="trailing" constant="20" id="xQM-Na-urY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="author" destination="AQF-Fn-tQL" id="cen-rL-8jL"/>
+                <outlet property="backgroundImage" destination="lUx-XT-3ni" id="XTl-IK-XPb"/>
+                <outlet property="title" destination="pMl-Ng-1nQ" id="Ld5-xx-AC1"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="-103.125"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Placeholder" width="400" height="270"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

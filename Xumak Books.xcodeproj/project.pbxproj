@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,20 @@
 		7D80D0E9274807F100F15855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D80D0E7274807F100F15855 /* Main.storyboard */; };
 		7D80D0EB274807FB00F15855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D80D0EA274807FB00F15855 /* Assets.xcassets */; };
 		7D80D0EE274807FB00F15855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D80D0EC274807FB00F15855 /* LaunchScreen.storyboard */; };
+		7D80D0F72748095F00F15855 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D80D0F62748095F00F15855 /* Book.swift */; };
+		7D80D0FA27480A5D00F15855 /* BookProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D80D0F927480A5D00F15855 /* BookProtocol.swift */; };
+		7D80D0FF27480AD200F15855 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D80D0FE27480AD200F15855 /* API.swift */; };
+		7D80D10427480BBF00F15855 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D80D10327480BBF00F15855 /* Connectivity.swift */; };
+		7D80D10727480C3A00F15855 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D80D10627480C3A00F15855 /* ListItem.swift */; };
+		7D80D10B27480F1200F15855 /* ListItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D80D10A27480F1200F15855 /* ListItem.xib */; };
+		7D80D10D274810B000F15855 /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D80D10C274810B000F15855 /* DashboardController.swift */; };
+		7D80D1102748117B00F15855 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D80D10F2748117B00F15855 /* Constants.swift */; };
+		7D80D112274812BE00F15855 /* DetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D80D111274812BE00F15855 /* DetailsController.swift */; };
+		7D80D114274821FF00F15855 /* ErrorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D80D113274821FF00F15855 /* ErrorController.swift */; };
+		7D80D116274825A900F15855 /* ApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D80D115274825A900F15855 /* ApiProtocol.swift */; };
+		7D80D11A2748340700F15855 /* AppBarUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D80D1192748340700F15855 /* AppBarUtil.swift */; };
+		7D80D11C27483C9C00F15855 /* ImageUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D80D11B27483C9C00F15855 /* ImageUtil.swift */; };
+		EA5E0D0FC00BD8B1D385EF19 /* Pods_Xumak_Books.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA18B0F0C5D8FBB017415DE3 /* Pods_Xumak_Books.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,22 @@
 		7D80D0EA274807FB00F15855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D80D0ED274807FB00F15855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D80D0EF274807FB00F15855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D80D0F62748095F00F15855 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		7D80D0F927480A5D00F15855 /* BookProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookProtocol.swift; sourceTree = "<group>"; };
+		7D80D0FE27480AD200F15855 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		7D80D10327480BBF00F15855 /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		7D80D10627480C3A00F15855 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		7D80D10A27480F1200F15855 /* ListItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListItem.xib; sourceTree = "<group>"; };
+		7D80D10C274810B000F15855 /* DashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
+		7D80D10F2748117B00F15855 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7D80D111274812BE00F15855 /* DetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsController.swift; sourceTree = "<group>"; };
+		7D80D113274821FF00F15855 /* ErrorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorController.swift; sourceTree = "<group>"; };
+		7D80D115274825A900F15855 /* ApiProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProtocol.swift; sourceTree = "<group>"; };
+		7D80D1192748340700F15855 /* AppBarUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBarUtil.swift; sourceTree = "<group>"; };
+		7D80D11B27483C9C00F15855 /* ImageUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtil.swift; sourceTree = "<group>"; };
+		9E4B0A1C6CA43403EAA1B793 /* Pods-Xumak Books.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xumak Books.debug.xcconfig"; path = "Target Support Files/Pods-Xumak Books/Pods-Xumak Books.debug.xcconfig"; sourceTree = "<group>"; };
+		AA18B0F0C5D8FBB017415DE3 /* Pods_Xumak_Books.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Xumak_Books.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E86787E5575C115FA8BCEE /* Pods-Xumak Books.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xumak Books.release.xcconfig"; path = "Target Support Files/Pods-Xumak Books/Pods-Xumak Books.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA5E0D0FC00BD8B1D385EF19 /* Pods_Xumak_Books.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CE04D470E345E6AD4EACDFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E4B0A1C6CA43403EAA1B793 /* Pods-Xumak Books.debug.xcconfig */,
+				E5E86787E5575C115FA8BCEE /* Pods-Xumak Books.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7D80D0D5274807F000F15855 = {
 			isa = PBXGroup;
 			children = (
 				7D80D0E0274807F000F15855 /* Xumak Books */,
 				7D80D0DF274807F000F15855 /* Products */,
+				5CE04D470E345E6AD4EACDFF /* Pods */,
+				B8A0DB39A4E16B3939BBE1C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +98,100 @@
 		7D80D0E0274807F000F15855 /* Xumak Books */ = {
 			isa = PBXGroup;
 			children = (
+				7D80D10E2748116F00F15855 /* Constant */,
+				7D80D10927480EFB00F15855 /* Controller */,
+				7D80D10827480EE200F15855 /* View */,
+				7D80D10527480C2B00F15855 /* Items */,
+				7D80D10027480B7F00F15855 /* Utils */,
+				7D80D0FB27480A9C00F15855 /* API */,
+				7D80D0F827480A5000F15855 /* Protocol */,
+				7D80D0F52748095200F15855 /* Model */,
 				7D80D0E1274807F000F15855 /* AppDelegate.swift */,
 				7D80D0E3274807F000F15855 /* SceneDelegate.swift */,
 				7D80D0E5274807F000F15855 /* ViewController.swift */,
-				7D80D0E7274807F100F15855 /* Main.storyboard */,
 				7D80D0EA274807FB00F15855 /* Assets.xcassets */,
-				7D80D0EC274807FB00F15855 /* LaunchScreen.storyboard */,
 				7D80D0EF274807FB00F15855 /* Info.plist */,
 			);
 			path = "Xumak Books";
+			sourceTree = "<group>";
+		};
+		7D80D0F52748095200F15855 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7D80D0F62748095F00F15855 /* Book.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7D80D0F827480A5000F15855 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				7D80D0F927480A5D00F15855 /* BookProtocol.swift */,
+				7D80D115274825A900F15855 /* ApiProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		7D80D0FB27480A9C00F15855 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				7D80D0FE27480AD200F15855 /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		7D80D10027480B7F00F15855 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7D80D10327480BBF00F15855 /* Connectivity.swift */,
+				7D80D1192748340700F15855 /* AppBarUtil.swift */,
+				7D80D11B27483C9C00F15855 /* ImageUtil.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7D80D10527480C2B00F15855 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				7D80D10627480C3A00F15855 /* ListItem.swift */,
+				7D80D10A27480F1200F15855 /* ListItem.xib */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		7D80D10827480EE200F15855 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7D80D0EC274807FB00F15855 /* LaunchScreen.storyboard */,
+				7D80D0E7274807F100F15855 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7D80D10927480EFB00F15855 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7D80D10C274810B000F15855 /* DashboardController.swift */,
+				7D80D111274812BE00F15855 /* DetailsController.swift */,
+				7D80D113274821FF00F15855 /* ErrorController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7D80D10E2748116F00F15855 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				7D80D10F2748117B00F15855 /* Constants.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		B8A0DB39A4E16B3939BBE1C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA18B0F0C5D8FBB017415DE3 /* Pods_Xumak_Books.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D80D0F2274807FB00F15855 /* Build configuration list for PBXNativeTarget "Xumak Books" */;
 			buildPhases = (
+				0BFEB85160D312226A649D24 /* [CP] Check Pods Manifest.lock */,
 				7D80D0DA274807F000F15855 /* Sources */,
 				7D80D0DB274807F000F15855 /* Frameworks */,
 				7D80D0DC274807F000F15855 /* Resources */,
+				A4C6CF873AC91937AB2F0E59 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D80D10B27480F1200F15855 /* ListItem.xib in Resources */,
 				7D80D0EE274807FB00F15855 /* LaunchScreen.storyboard in Resources */,
 				7D80D0EB274807FB00F15855 /* Assets.xcassets in Resources */,
 				7D80D0E9274807F100F15855 /* Main.storyboard in Resources */,
@@ -132,14 +262,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BFEB85160D312226A649D24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Xumak Books-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4C6CF873AC91937AB2F0E59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Xumak Books/Pods-Xumak Books-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Xumak Books/Pods-Xumak Books-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Xumak Books/Pods-Xumak Books-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7D80D0DA274807F000F15855 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D80D0F72748095F00F15855 /* Book.swift in Sources */,
+				7D80D112274812BE00F15855 /* DetailsController.swift in Sources */,
+				7D80D114274821FF00F15855 /* ErrorController.swift in Sources */,
 				7D80D0E6274807F100F15855 /* ViewController.swift in Sources */,
 				7D80D0E2274807F000F15855 /* AppDelegate.swift in Sources */,
 				7D80D0E4274807F000F15855 /* SceneDelegate.swift in Sources */,
+				7D80D11A2748340700F15855 /* AppBarUtil.swift in Sources */,
+				7D80D10D274810B000F15855 /* DashboardController.swift in Sources */,
+				7D80D1102748117B00F15855 /* Constants.swift in Sources */,
+				7D80D11C27483C9C00F15855 /* ImageUtil.swift in Sources */,
+				7D80D10727480C3A00F15855 /* ListItem.swift in Sources */,
+				7D80D0FF27480AD200F15855 /* API.swift in Sources */,
+				7D80D0FA27480A5D00F15855 /* BookProtocol.swift in Sources */,
+				7D80D116274825A900F15855 /* ApiProtocol.swift in Sources */,
+				7D80D10427480BBF00F15855 /* Connectivity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +467,14 @@
 		};
 		7D80D0F3274807FB00F15855 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E4B0A1C6CA43403EAA1B793 /* Pods-Xumak Books.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S47624DG2M;
 				INFOPLIST_FILE = "Xumak Books/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +488,14 @@
 		};
 		7D80D0F4274807FB00F15855 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E86787E5575C115FA8BCEE /* Pods-Xumak Books.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S47624DG2M;
 				INFOPLIST_FILE = "Xumak Books/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
